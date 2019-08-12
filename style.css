@@ -1,0 +1,257 @@
+body{
+    margin: 0%;
+    background-image: url("../Responsive-Portfolio/Images/gravel.png");
+    font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background: rgba(128, 128, 128, 0.699);
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.absolute {
+    text-align: left;
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 286px;
+    padding: 16.5px;
+    background: brown;
+    color: white;
+    font-size: 24px;
+}
+
+.navigation {
+    margin: auto;
+    width: 960px;
+    font-size: 18px;
+    text-align: right;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: white;
+}
+
+#about {
+    background: rgba(128, 128, 128, 0.699);
+    margin: auto;
+    width: 960px;
+    margin-top: 20px;
+    padding: 5px 0;
+}
+
+#mehead {
+    margin-left: 20px;
+    color: brown;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#profile {
+    margin-left: 20px;
+    width: 200px;
+    float: left;
+    padding-top: 15px;
+}
+
+#firstp {
+    margin-left: 225px;
+    font-size: 18px;
+    width: 675px;
+    padding: 5px 20px 0 20px;
+}
+
+#secondp {
+    margin-right: 20px;
+    font-size: 18px;
+    width: 925px;
+    padding: 15px 20px 0 20px;
+}
+
+#thirdp {
+    margin-right: 20px;
+    font-size: 18px;
+    width: 925px;
+    padding: 10px 20px 0 20px;
+}
+
+.footer {
+    background: rgba(128, 128, 128, 0.699);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact {
+    background: rgba(128, 128, 128, 0.699);
+    margin: auto;
+    width: 960px;
+    margin-top: 20px;
+    padding: 5px 0;
+}
+
+.form {
+    padding: 10px 0 10px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#name {
+    width: 917px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#email {
+    width: 917px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#message {
+    width: 917px;
+    border: 1px solid black;
+    padding: 50px 0 50px 0;
+    font-size: 16px;
+}
+
+#submit {
+    background: brown;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#portfolio {
+    background: rgba(128, 128, 128, 0.699);
+    margin: auto;
+    width: 960px;
+    margin-top: 20px;
+    padding: 5px 0 500px 0;
+}
+
+#sport {
+    margin-left: 20px;
+    width: 175px;
+    margin-top: 10px;
+    float: left;
+}
+
+#sport_label {
+    margin-left: 20px;
+    width: 175px;
+    color: white;
+    background: brown;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    position: absolute;
+    top: 270px;
+}
+
+#city {
+    margin-left: 20px;
+    width: 175px;
+    margin-top: 10px;
+    margin-right: 100px;
+    float: left;
+}
+
+#city_label {
+    margin-left: 20px;
+    width: 175px;
+    color: white;
+    background: brown;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    position: absolute;
+    top: 270px;
+    left: 474.5px;
+}
+
+#animal {
+    margin-left: 20px;
+    width: 175px;
+    margin-top: 10px;
+    clear: both;
+    float: left;
+}
+
+#animal_label {
+    margin-left: 20px;
+    width: 175px;
+    color: white;
+    background: brown;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    position: absolute;
+    top: 445px;
+}
+
+#food {
+    margin-left: 20px;
+    width: 175px;
+    margin-top: 10px;
+    float: left;
+}
+
+#food_label {
+    margin-left: 20px;
+    width: 175px;
+    color: white;
+    background: brown;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    position: absolute;
+    top: 445px;
+    left: 474.5px;
+}
+
+#nature {
+    margin-left: 20px;
+    width: 175px;
+    margin-top: 10px;
+    clear: both;
+    float: left;
+}
+
+#nature_label {
+    margin-left: 20px;
+    width: 175px;
+    color: white;    
+    background: brown;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    position: absolute;
+    top: 615px;
+}
+
+#portfolio2 {
+    margin-left: 20px;
+    color: brown;
+}
+
+#footer_portfolio {
+    background: rgba(128, 128, 128, 0.699);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 70px;
+}
