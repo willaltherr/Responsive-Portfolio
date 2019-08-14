@@ -259,7 +259,7 @@ hr {
   .absolute {
     color: brown;
     background: white;
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 2%;
   }
@@ -267,6 +267,30 @@ hr {
   .navigation {
     color: white;
     width: 100%;
+  }
+
+  #portfolio {
+    margin-left: 4%;
+    margin-right: 30%;
+    max-width: 66%;
+  }
+
+  #contact {
+    margin-left: 4%;
+    margin-right: 30%;
+    max-width: 66%;
+  }
+
+  #name {
+    max-width: 100%;
+  }
+
+  #email {
+    max-width: 100%;
+  }
+
+  #message {
+    max-width: 100%;
   }
 
 }
