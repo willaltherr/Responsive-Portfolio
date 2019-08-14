@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-image: url("../Responsive-Portfolio/Images/gravel.png");
+    background-image: url("../images/gravel.png");
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -23,7 +23,6 @@ header {
 }
 
 .navigation {
-    margin: auto;
     width: 960px;
     font-size: 18px;
     text-align: right;
@@ -256,108 +255,18 @@ hr {
     margin-top: 70px;
 }
 
-
 @media screen and (max-width: 980px) {
-    .absolute {
-        background: white;
-        left: 0;
-        margin-left: 2%;
-        color: brown;
-    }
+  .absolute {
+    color: brown;
+    background: white;
+    position: fixed;
+    top: 0%;
+    left: 2%;
+  }
 
-    .header {
-        background: brown;
-        min-width: 980px;
-    }
+  .navigation {
+    color: white;
+    width: 100%;
+  }
 
-    .navigation {
-        margin-right: 2%;
-        color: rgba(128, 128, 128, 0.699);
-    }
-
-    .footer {
-        min-width: 980px;
-        position: relative;
-        bottom: 0;
-        margin-top: 10%;
-        background: brown;
-    }
-
-    #contact {
-        margin-left: 20px;
-    }
-
-    a {
-        color: white;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .absolute {
-        background: white;
-        left: 0;
-        margin-left: 2%;
-        color: brown;
-    }
-
-    .header {
-        background: brown;
-        min-width: 980px;
-    }
-
-    .navigation {
-        margin-right: 2%;
-        color: rgba(128, 128, 128, 0.699);
-    }
-
-    .footer {
-        min-width: 980px;
-        position: relative;
-        bottom: 0;
-        margin-top: 10%;
-        background: brown;
-    }
-
-    .contact {
-        margin-left: 20px;
-    }
-
-    a {
-        color: white;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .absolute {
-        background: white;
-        left: 0;
-        margin-left: 2%;
-        color: brown;
-    }
-
-    .header {
-        background: brown;
-        min-width: 980px;
-    }
-
-    .navigation {
-        margin-right: 2%;
-        color: rgba(128, 128, 128, 0.699);
-    }
-
-    .footer {
-        min-width: 980px;
-        position: relative;
-        bottom: 0;
-        margin-top: 10%;
-        background: brown;
-    }
-
-    .contact {
-        margin-left: 20px;
-    }
-
-    a {
-        color: white;
-    }
 }
