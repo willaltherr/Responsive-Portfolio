@@ -378,6 +378,42 @@ hr {
   margin-bottom: 30%;
 }
 
+/******** Portfolio Page *********/
+
+#portfolio {
+  margin-left: 4%;
+  max-width: 93%;
+  margin-bottom: 30%;
+  position: absolute;
+  height: 70%;
+}
+
+#sport {
+  width: 45%;
+  position: relative;
+}
+
+#city {
+  width: 41.8%;
+  position: absolute;
+}
+
+#animal {
+  width: 45%;
+  position: relative;
+}
+
+#food {
+  width: 45%;
+  position: relative;
+  top: 63.3%;
+}
+
+#nature {
+  width: 45%;
+  position: relative;
+}
+
 }
 
 @media screen and (max-width: 640px) {
@@ -403,6 +439,37 @@ hr {
   /******** Index Page "About" *********/
   #profile {
     width: 93%;
+  }
+
+  /******** Portfolio Page *********/
+  #sport {
+    width: 92.8%;
+    position: relative;
+  }
+  
+  #city {
+    width: 92.8%;
+    position: relative;
+    margin-top: 10%;
+  }
+  
+  #animal {
+    width: 92.8%;
+    position: relative;
+    margin-top: 10%;
+  }
+  
+  #food {
+    width: 92.8%;
+    position: relative;
+    margin-top: 10%;
+  }
+  
+  #nature {
+    width: 92.8%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 20%;
   }
 }
 
