@@ -292,6 +292,10 @@ hr {
     max-width: 66%;
   }
 
+  #city_label {
+    float: left;
+  }
+
 /******** Contact *********/
 
   #contact {
@@ -358,3 +362,47 @@ hr {
     bottom: 0%;
   }
 }
+
+@media screen and (max-width: 768px) {
+ /******** Contact *********/
+ #contact {
+  margin-left: 4%;
+  max-width: 93%;
+  margin-bottom: 30%;
+}
+
+/******** Index Page "About" *********/
+#about {
+  margin-left: 4%;
+  max-width: 93%;
+  margin-bottom: 30%;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+  
+  /******** Header for all three HTML pages *********/
+
+  .absolute {
+    color: brown;
+    background: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation, a {
+    margin-top: 12%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /******** Index Page "About" *********/
+  #profile {
+    width: 93%;
+  }
+}
+
