@@ -318,6 +318,7 @@ hr {
     margin-left: 4%;
     margin-right: 30%;
     max-width: 66%;
+    margin-bottom: 20%;
   }
 
   #firstp {
@@ -346,4 +347,14 @@ hr {
     padding-bottom: 2%;
   }
 
+  /******* Footer ********/
+  .footer {
+    position: fixed;
+    bottom: 0%;
+  }
+
+  #footer_portfolio {
+    position: fixed;
+    bottom: 0%;
+  }
 }
