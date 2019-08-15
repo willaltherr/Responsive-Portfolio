@@ -255,13 +255,28 @@ hr {
     margin-top: 70px;
 }
 
+#name {
+  margin-bottom: 10px;
+}
+
+#email {
+  margin-bottom: 10px;
+}
+
+#message {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 980px) {
+
+/******** Header for all three HTML pages *********/
+
   .absolute {
     color: brown;
     background: white;
     position: absolute;
     top: 0%;
-    left: 2%;
+    left: 4%;
   }
 
   .navigation {
@@ -269,11 +284,15 @@ hr {
     width: 100%;
   }
 
+/******** Portfolio *********/
+
   #portfolio {
     margin-left: 4%;
     margin-right: 30%;
     max-width: 66%;
   }
+
+/******** Contact *********/
 
   #contact {
     margin-left: 4%;
@@ -291,6 +310,40 @@ hr {
 
   #message {
     max-width: 100%;
+  }
+
+/******** Index Page "About" *********/
+
+  #about {
+    margin-left: 4%;
+    margin-right: 30%;
+    max-width: 66%;
+  }
+
+  #firstp {
+    margin-left: 0%;
+    max-width: 90%;
+    line-height: 150%;
+    font-size: 135%;
+  }
+
+  #secondp {
+    margin-left: 0%;
+    max-width: 90%;
+    line-height: 150%;
+    font-size: 135%;
+  }
+
+  #thirdp {
+    margin-left: 0%;
+    max-width: 90%;
+    line-height: 150%;
+    font-size: 135%;
+  }
+
+  #profile {
+    padding-right: 4.5%;
+    padding-bottom: 2%;
   }
 
 }
