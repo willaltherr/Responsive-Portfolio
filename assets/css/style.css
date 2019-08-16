@@ -15,7 +15,7 @@ header {
     width: 150px;
     position: absolute;
     top: 0px;
-    left: 286px;
+    left: 20pxpx;
     padding: 16.5px;
     background: brown;
     color: white;
@@ -42,6 +42,7 @@ a:hover {
     width: 960px;
     margin-top: 20px;
     padding: 5px 0;
+    margin-bottom: 10%;
 }
 
 #mehead {
@@ -88,7 +89,7 @@ hr {
     text-align: center;
     font-size: 14px;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -99,6 +100,7 @@ hr {
     width: 960px;
     margin-top: 20px;
     padding: 5px 0;
+    margin-bottom: 10%;
 }
 
 .form {
@@ -140,103 +142,10 @@ hr {
     background: rgba(128, 128, 128, 0.699);
     margin: auto;
     width: 960px;
-    margin-top: 20px;
-    padding: 5px 0 500px 0;
-}
-
-#sport {
-    margin-left: 20px;
-    width: 175px;
-    margin-top: 10px;
-    float: left;
-}
-
-#sport_label {
-    margin-left: 20px;
-    width: 175px;
-    color: white;
-    background: brown;
-    text-align: center;
-    padding: 6px 0 6px 0;
-    position: absolute;
-    top: 270px;
-}
-
-#city {
-    margin-left: 20px;
-    width: 175px;
-    margin-top: 10px;
-    margin-right: 100px;
-    float: left;
-}
-
-#city_label {
-    margin-left: 20px;
-    width: 175px;
-    color: white;
-    background: brown;
-    text-align: center;
-    padding: 6px 0 6px 0;
-    position: absolute;
-    top: 270px;
-    left: 474.5px;
-}
-
-#animal {
-    margin-left: 20px;
-    width: 175px;
-    margin-top: 10px;
-    clear: both;
-    float: left;
-}
-
-#animal_label {
-    margin-left: 20px;
-    width: 175px;
-    color: white;
-    background: brown;
-    text-align: center;
-    padding: 6px 0 6px 0;
-    position: absolute;
-    top: 445px;
-}
-
-#food {
-    margin-left: 20px;
-    width: 175px;
-    margin-top: 10px;
-    float: left;
-}
-
-#food_label {
-    margin-left: 20px;
-    width: 175px;
-    color: white;
-    background: brown;
-    text-align: center;
-    padding: 6px 0 6px 0;
-    position: absolute;
-    top: 445px;
-    left: 474.5px;
-}
-
-#nature {
-    margin-left: 20px;
-    width: 175px;
-    margin-top: 10px;
-    clear: both;
-    float: left;
-}
-
-#nature_label {
-    margin-left: 20px;
-    width: 175px;
-    color: white;    
-    background: brown;
-    text-align: center;
-    padding: 6px 0 6px 0;
-    position: absolute;
-    top: 615px;
+    margin-top: 20px;  
+    padding-top: 5px;
+    padding-bottom: 97%;
+    margin-bottom: 20%;
 }
 
 #portfolio2 {
@@ -244,15 +153,36 @@ hr {
     color: brown;
 }
 
-#footer_portfolio {
-    background: rgba(128, 128, 128, 0.699);
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-    margin-top: 70px;
+.work {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 20px 0 25px 20px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  max-width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: brown;
+  border-bottom: 0;
 }
 
 #name {
@@ -289,11 +219,33 @@ hr {
   #portfolio {
     margin-left: 4%;
     margin-right: 30%;
-    max-width: 66%;
+    max-width: 70%;
+    margin-bottom: 15%;
+    padding-bottom: 100%;
   }
 
-  #city_label {
+  .work {
+    position: relative;
     float: left;
+    width: 43%;
+  }
+   
+  .work img {
+    width: 100%;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 89.1%;
+    padding: 10%;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: brown;
+    border-bottom: 0;
   }
 
 /******** Contact *********/
@@ -355,12 +307,9 @@ hr {
   .footer {
     position: fixed;
     bottom: 0%;
+    text-align: center;
   }
 
-  #footer_portfolio {
-    position: fixed;
-    bottom: 0%;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -382,37 +331,42 @@ hr {
 
 #portfolio {
   margin-left: 4%;
-  max-width: 93%;
-  margin-bottom: 30%;
+  margin-right: 30%;
+  max-width: 70%;
+  margin-bottom: 15%;
+  padding-bottom: 200%;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 41%;
+}
+ 
+.work img {
+  width: 100%;
+}
+
+.work h3 {
   position: absolute;
-  height: 70%;
+  bottom: 20px;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: brown;
+  border-bottom: 0;
 }
 
-#sport {
-  width: 45%;
-  position: relative;
-}
-
-#city {
-  width: 41.8%;
-  position: absolute;
-}
-
-#animal {
-  width: 45%;
-  position: relative;
-}
-
-#food {
-  width: 45%;
-  position: relative;
-  top: 63.3%;
-}
-
-#nature {
-  width: 45%;
-  position: relative;
-}
+  /******* Footer ********/
+  .footer {
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+  }
 
 }
 
@@ -430,10 +384,15 @@ hr {
     text-align: center;
   }
 
+  .header {
+    width: 100%;
+  }
+
   .navigation, a {
     margin-top: 12%;
     text-align: center;
     max-width: 100%;
+    margin-left: 0%;
   }
 
   /******** Index Page "About" *********/
@@ -442,34 +401,44 @@ hr {
   }
 
   /******** Portfolio Page *********/
-  #sport {
-    width: 92.8%;
+
+  #portfolio {
+    margin-left: 4%;
+    margin-right: 30%;
+    max-width: 95%;
+    margin-bottom: 25%;
+    padding-bottom: 425%;
+  }
+
+  .work {
     position: relative;
+    float: left;
+    width: 90%;
+  }
+   
+  .work img {
+    width: 100%;
   }
   
-  #city {
-    width: 92.8%;
-    position: relative;
-    margin-top: 10%;
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: brown;
+    border-bottom: 0;
   }
-  
-  #animal {
-    width: 92.8%;
-    position: relative;
-    margin-top: 10%;
-  }
-  
-  #food {
-    width: 92.8%;
-    position: relative;
-    margin-top: 10%;
-  }
-  
-  #nature {
-    width: 92.8%;
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 20%;
-  }
+
+    /******* Footer ********/
+    .footer {
+      position: fixed;
+      bottom: 0%;
+      text-align: center;
+    }
 }
 
