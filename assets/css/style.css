@@ -211,7 +211,7 @@ hr {
 
   .navigation {
     color: white;
-    width: 100%;
+    width: 98%;
   }
 
 /******** Portfolio *********/
@@ -219,15 +219,17 @@ hr {
   #portfolio {
     margin-left: 4%;
     margin-right: 30%;
-    max-width: 70%;
+    max-width: 92%;
     margin-bottom: 15%;
-    padding-bottom: 100%;
+    padding-bottom: 126%;
+    margin-top: 5%;
   }
 
   .work {
     position: relative;
     float: left;
-    width: 43%;
+    left: 2%;
+    width: 45%;
   }
    
   .work img {
@@ -236,24 +238,20 @@ hr {
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
-    width: 89.1%;
-    padding: 10%;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
+    margin-bottom: 12%;
+    width: 92%;
+    padding: 4%;
+    font-size: 160%;
     color: #ffffff;
     text-align: center;
     background: brown;
-    border-bottom: 0;
   }
 
 /******** Contact *********/
 
   #contact {
-    margin-left: 4%;
-    margin-right: 30%;
-    max-width: 66%;
+    max-width: 92%;
+    margin: 5% 30% 15% 4%;
   }
 
   #name {
@@ -272,28 +270,28 @@ hr {
 
   #about {
     margin-left: 4%;
-    margin-right: 30%;
-    max-width: 66%;
-    margin-bottom: 20%;
+    max-width: 92%;
+    margin-bottom: 15%;
+    margin-top: 5%;
   }
 
   #firstp {
-    margin-left: 0%;
-    max-width: 90%;
+    margin-left: 1%;
+    width: 95%;
     line-height: 150%;
     font-size: 135%;
   }
 
   #secondp {
-    margin-left: 0%;
-    max-width: 90%;
+    margin-left: 1%;
+    max-width: 95%;
     line-height: 150%;
     font-size: 135%;
   }
 
   #thirdp {
-    margin-left: 0%;
-    max-width: 90%;
+    margin-left: 1%;
+    max-width: 95%;
     line-height: 150%;
     font-size: 135%;
   }
@@ -313,34 +311,69 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+
+  .absolute {
+    color: brown;
+    background: white;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+  }
+
+
+.navigation {
+  color: white;
+  width: 98%;
+}
+
  /******** Contact *********/
  #contact {
-  margin-left: 4%;
-  max-width: 93%;
-  margin-bottom: 30%;
+  margin-left: 5%;
+  max-width: 91%;
+  margin-bottom: 15%;
 }
 
 /******** Index Page "About" *********/
 #about {
-  margin-left: 4%;
+  margin-left: 5%;
+  max-width: 91%;
+}
+
+#firstp {
+  margin-left: 1%;
+  width: 93%;
+  line-height: 150%;
+  font-size: 135%;
+}
+
+#secondp {
+  margin-left: 1%;
   max-width: 93%;
-  margin-bottom: 30%;
+  line-height: 150%;
+  font-size: 135%;
+}
+
+#thirdp {
+  margin-left: 1%;
+  max-width: 93%;
+  line-height: 150%;
+  font-size: 135%;
 }
 
 /******** Portfolio Page *********/
 
 #portfolio {
-  margin-left: 4%;
-  margin-right: 30%;
-  max-width: 70%;
+  margin-left: 5%;
+  max-width: 91%;
   margin-bottom: 15%;
-  padding-bottom: 200%;
+  padding-bottom: 125%;
 }
 
 .work {
   position: relative;
+  left: 2.5%;
   float: left;
-  width: 41%;
+  width: 43%;
 }
  
 .work img {
@@ -349,16 +382,11 @@ hr {
 
 .work h3 {
   position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 7px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
+  width: 93.5%;
+  padding: 10px;
   color: #ffffff;
   text-align: center;
   background: brown;
-  border-bottom: 0;
 }
 
   /******* Footer ********/
@@ -378,14 +406,15 @@ hr {
     color: brown;
     background: white;
     position: absolute;
-    top: 0%;
-    left: 0%;
     width: 100%;
+    left: 0%;
     text-align: center;
+    font-size: 200%;
   }
 
   .header {
-    width: 100%;
+    width: 98.9%;
+    text-align: center;
   }
 
   .navigation, a {
@@ -393,45 +422,80 @@ hr {
     text-align: center;
     max-width: 100%;
     margin-left: 0%;
+    padding-bottom: 2%;
   }
 
+   /******** Contact *********/
+ #contact {
+  margin-left: 5%;
+  max-width: 90%;
+  margin-bottom: 15%;
+}
+
   /******** Index Page "About" *********/
+
+  #about {
+    margin-left: 5%;
+    max-width: 90%;
+  }
+  
   #profile {
-    width: 93%;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 2%;
+  }
+
+  #firstp {
+    margin-left: 1.5%;
+    width: 92%;
+    line-height: 150%;
+    font-size: 135%;
+  }
+  
+  #secondp {
+    margin-left: 1.5%;
+    max-width: 92%;
+    line-height: 150%;
+    font-size: 135%;
+  }
+  
+  #thirdp {
+    margin-left: 1.5%;
+    max-width: 92%;
+    line-height: 150%;
+    font-size: 135%;
   }
 
   /******** Portfolio Page *********/
 
   #portfolio {
-    margin-left: 4%;
+    margin-left: 5%;
     margin-right: 30%;
-    max-width: 95%;
-    margin-bottom: 25%;
-    padding-bottom: 425%;
+    max-width: 90%;
+    margin-bottom: 17%;
+    padding-bottom: 365%;
   }
 
   .work {
     position: relative;
     float: left;
-    width: 90%;
+    width: 95%;
   }
    
   .work img {
-    width: 100%;
+    width: 85%;
+    margin-left: 4%;
   }
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
+    width: 75%;
+    padding: 5%;
+    font-size: 180%;
     color: #ffffff;
     text-align: center;
     background: brown;
-    border-bottom: 0;
+    margin-left: 4%;
   }
 
     /******* Footer ********/
