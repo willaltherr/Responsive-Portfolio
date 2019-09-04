@@ -247,6 +247,10 @@ hr {
     background: brown;
   }
 
+  .crystalImg {
+    width: 50% !important;
+    height: 100px;
+  }
 
   
 /******** Contact *********/
