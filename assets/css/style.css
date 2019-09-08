@@ -11,19 +11,19 @@ header {
 }
 
 .absolute {
-    text-align: left;
-    width: 150px;
+    text-align: center;
+    width: 15%;
     position: absolute;
     top: 0px;
-    left: 20pxpx;
-    padding: 16.5px;
+    left: 0px;
+    padding: 16.4px;
     background: brown;
     color: white;
     font-size: 24px;
 }
 
 .navigation {
-    width: 960px;
+    width: 100%;
     font-size: 18px;
     text-align: right;
 }
@@ -151,6 +151,9 @@ hr {
 #portfolio2 {
     margin-left: 20px;
     color: brown;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 2%;
 }
 
 .work {
@@ -206,7 +209,7 @@ hr {
     background: white;
     position: absolute;
     top: 0%;
-    left: 4%;
+    left: 0%;
   }
 
   .navigation {
@@ -229,7 +232,8 @@ hr {
     position: relative;
     float: left;
     left: 2%;
-    width: 45%;
+    width: 100%;
+    height: auto;
   }
    
   .work img {
@@ -323,7 +327,7 @@ hr {
     background: white;
     position: absolute;
     top: 0%;
-    left: 5%;
+    left: 0%;
   }
 
 
