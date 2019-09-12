@@ -1,36 +1,75 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <Title>Contact Will Altherr</Title>
-            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Will Altherr's Portfolio</title>
 
-        <body>
-            <header class="header">
-                <nav class="navigation">
-                    <a href="index.html">About</a>   |
-                    <a href="portfolio.html">Portfolio</a>   |
-                    <a href="contact.html">Contact</a>   |
-                </nav>
-                <div class="absolute">Will Altherr</div>
-            </header>
-            <section id="contact">
-                    <h1 id="mehead">Contact</h1>
-                    <hr>
-                    <form class="form">
-                        Name<br>
-                        <input type="text" name="name" id="name" placeholder="First & Last Name"><br>
-                        Email<br>
-                        <input type="text" name="email" id="email" placeholder="Email Address"><br>
-                        Message<br>
-                        <input type="text" name="message" id="message"><br>
-                        <input type="submit" value="Submit" id="submit"><br>
-                    </form>
-            </section>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-            <footer class="footer">Copyright 2019</footer>
-        </body>
+</head>
 
-    </html>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="brand h2" href="index.html">Will Altherr's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item" href="index.html">About</a>
+          <a class="nav-item" href="portfolio.html">Portfolio</a>
+          <a class="nav-item" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-12">
+           <h1></h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+              <h2>Contact</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+              <hr></hr>
+            </div>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First & Last Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <input type="mesage" class="form-control" id="exampleInputPassword1" placeholder="Message">
+          </div>
+          <button type="submit" class="btn submit">Submit</button>
+        </form>
+
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+          <footer class="page-footer sinkBottom">
+            <h5>Copyright 2019</h5>
+          </footer>
+        </div>
+    </div>
+  
+</body>
+</html>

@@ -1,518 +1,110 @@
-body{
-    margin: 0%;
-    background-image: url("../images/gravel.png");
-    font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
+body {
+  background-image: url("../images/gravel.png");
+  margin: auto;
+  overflow-x:hidden;
 }
 
-header {
-    background: rgba(128, 128, 128, 0.699);
-    padding: 20px;
-    border-bottom: 1px solid grey;
+.img-fluid {
+  padding-top: 5%;
+  padding-left: 3%;
 }
 
-.absolute {
-    text-align: center;
-    width: 15%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 16.4px;
-    background: brown;
-    color: white;
-    font-size: 24px;
+.img-fluid:hover {
+  opacity: 0.5;
 }
 
-.navigation {
-    width: 100%;
-    font-size: 18px;
-    text-align: right;
+.brand {
+  margin-left: 10%;
 }
 
-a {
-    color: brown;
+.navbar {
+  background: rgba(128, 128, 128, 0.699);
 }
 
-a:hover {
-    color: white;
+.navbar-nav {
+  margin-left: 65%;
 }
 
-#about {
-    background: rgba(128, 128, 128, 0.699);
-    margin: auto;
-    width: 960px;
-    margin-top: 20px;
-    padding: 5px 0;
-    margin-bottom: 10%;
+.container {
+  margin-top: 5%;
+  background: rgba(128, 128, 128, 0.699);
+  margin-bottom: 3%;
 }
 
-#mehead {
-    margin-left: 20px;
-    color: brown;
+h2 {
+  padding-left: 3%;
+  padding-top: 3%;
+  color: brown;
+}
+
+h5 {
+  text-align: center;
+  color: white;
 }
 
 hr {
-    margin-left: 20px;
-    margin-right: 20px;
+  background-color: white;
 }
 
-#profile {
-    margin-left: 20px;
-    width: 200px;
-    float: left;
-    padding-top: 15px;
-}
-
-#firstp {
-    margin-left: 225px;
-    font-size: 18px;
-    width: 675px;
-    padding: 5px 20px 0 20px;
-}
-
-#secondp {
-    margin-right: 20px;
-    font-size: 18px;
-    width: 925px;
-    padding: 15px 20px 0 20px;
-}
-
-#thirdp {
-    margin-right: 20px;
-    font-size: 18px;
-    width: 925px;
-    padding: 10px 20px 0 20px;
-}
-
-.footer {
-    background: rgba(128, 128, 128, 0.699);
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-#contact {
-    background: rgba(128, 128, 128, 0.699);
-    margin: auto;
-    width: 960px;
-    margin-top: 20px;
-    padding: 5px 0;
-    margin-bottom: 10%;
-}
-
-.form {
-    padding: 10px 0 10px 0;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#name {
-    width: 917px;
-    border: 1px solid black;
-    font-size: 16px;
-}
-
-#email {
-    width: 917px;
-    border: 1px solid black;
-    font-size: 16px;
-}
-
-#message {
-    width: 917px;
-    border: 1px solid black;
-    padding: 50px 0 50px 0;
-    font-size: 16px;
-}
-
-#submit {
-    background: brown;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 10px;
-    border: 1px solid black;
-}
-
-#portfolio {
-    background: rgba(128, 128, 128, 0.699);
-    margin: auto;
-    width: 960px;
-    margin-top: 20px;  
-    padding-top: 5px;
-    padding-bottom: 97%;
-    margin-bottom: 20%;
-}
-
-#portfolio2 {
-    margin-left: 20px;
-    color: brown;
-    font-size: 150%;
-    font-weight: bold;
-    padding-top: 2%;
-}
-
-.work {
-  position: relative;
-  float: left;
-  width: 300px;
-  margin: 20px 0 25px 20px;
-  overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  max-width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 90%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: brown;
-  border-bottom: 0;
-}
-
-#name {
-  margin-bottom: 10px;
-}
-
-#email {
-  margin-bottom: 10px;
-}
-
-#message {
-  margin-bottom: 10px;
-}
-
-@media screen and (max-width: 980px) {
-
-/******** Header for all three HTML pages *********/
-
-  .absolute {
-    color: brown;
-    background: white;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-  }
-
-  .navigation {
-    color: white;
-    width: 98%;
-  }
-
-/******** Portfolio *********/
-
-  #portfolio {
-    margin-left: 4%;
-    margin-right: 30%;
-    max-width: 92%;
-    margin-bottom: 15%;
-    padding-bottom: 126%;
-    margin-top: 5%;
-  }
-
-  .work {
-    position: relative;
-    float: left;
-    left: 2%;
-    width: 100%;
-    height: auto;
-  }
-   
-  .work img {
-    width: 100%;
-  }
-  
-  .work h3 {
-    position: absolute;
-    margin-bottom: 12%;
-    width: 92%;
-    padding: 4%;
-    font-size: 160%;
-    color: #ffffff;
-    text-align: center;
-    background: brown;
-  }
-
-  .crystalImg {
-    width: 50% !important;
-    height: 100px;
-  }
-
-  
-/******** Contact *********/
-
-  #contact {
-    max-width: 92%;
-    margin: 5% 30% 15% 4%;
-  }
-
-  #name {
-    max-width: 100%;
-  }
-
-  #email {
-    max-width: 100%;
-  }
-
-  #message {
-    max-width: 100%;
-  }
-
-/******** Index Page "About" *********/
-
-  #about {
-    margin-left: 4%;
-    max-width: 92%;
-    margin-bottom: 15%;
-    margin-top: 5%;
-  }
-
-  #firstp {
-    margin-left: 1%;
-    width: 95%;
-    line-height: 150%;
-    font-size: 135%;
-  }
-
-  #secondp {
-    margin-left: 1%;
-    max-width: 95%;
-    line-height: 150%;
-    font-size: 135%;
-  }
-
-  #thirdp {
-    margin-left: 1%;
-    max-width: 95%;
-    line-height: 150%;
-    font-size: 135%;
-  }
-
-  #profile {
-    padding-right: 4.5%;
-    padding-bottom: 2%;
-  }
-
-  /******* Footer ********/
-  .footer {
-    position: fixed;
-    bottom: 0%;
-    text-align: center;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-
-  .absolute {
-    color: brown;
-    background: white;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-  }
-
-
-.navigation {
+.nav-item {
   color: white;
-  width: 98%;
+  font-size: 130%;
+  margin: 8%;
 }
 
- /******** Contact *********/
- #contact {
-  margin-left: 5%;
-  max-width: 91%;
-  margin-bottom: 15%;
+.nav-item:hover {
+  color: brown;
+  font-size: 130%;
 }
 
-/******** Index Page "About" *********/
-#about {
-  margin-left: 5%;
-  max-width: 91%;
+.brand {
+  color: brown;
+  font-size: 175%;
 }
 
-#firstp {
-  margin-left: 1%;
-  width: 93%;
-  line-height: 150%;
-  font-size: 135%;
+.brand:hover {
+  color: white;
+  font-size: 175%;
 }
 
-#secondp {
-  margin-left: 1%;
-  max-width: 93%;
-  line-height: 150%;
-  font-size: 135%;
+.page-footer {
+  margin-top: 3%;
+  background:  rgba(128, 128, 128, 0.699);
+  padding: 1%;
+  margin-bottom: 0%;
 }
 
-#thirdp {
-  margin-left: 1%;
-  max-width: 93%;
-  line-height: 150%;
-  font-size: 135%;
+.card-title {
+  color: black;
 }
 
-/******** Portfolio Page *********/
-
-#portfolio {
-  margin-left: 5%;
-  max-width: 91%;
-  margin-bottom: 15%;
-  padding-bottom: 125%;
+.label {
+  font-size: 150%;
+  color: white;
+  text-align: center;
 }
 
-.work {
-  position: relative;
-  left: 2.5%;
-  float: left;
-  width: 43%;
+.link-games:hover {
+  color: brown;
 }
- 
-.work img {
+
+.label:hover {
+  color: brown;
+}
+
+.bio {
+  font-size: 110%;
+  color: white;
+}
+
+.submit {
+  background: brown;
+  color: white;
+  margin-bottom: 2%;
+}
+
+.sinkBottom {
+  position: fixed;
+  bottom: 0%;
   width: 100%;
 }
-
-.work h3 {
-  position: absolute;
-  width: 93.5%;
-  padding: 10px;
-  color: #ffffff;
-  text-align: center;
-  background: brown;
-}
-
-  /******* Footer ********/
-  .footer {
-    position: fixed;
-    bottom: 0%;
-    text-align: center;
-  }
-
-}
-
-@media screen and (max-width: 640px) {
-  
-  /******** Header for all three HTML pages *********/
-
-  .absolute {
-    color: brown;
-    background: white;
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    text-align: center;
-    font-size: 200%;
-  }
-
-  .header {
-    width: 98.9%;
-    text-align: center;
-  }
-
-  .navigation, a {
-    margin-top: 12%;
-    text-align: center;
-    max-width: 100%;
-    margin-left: 0%;
-    padding-bottom: 2%;
-  }
-
-   /******** Contact *********/
- #contact {
-  margin-left: 5%;
-  max-width: 90%;
-  margin-bottom: 15%;
-}
-
-  /******** Index Page "About" *********/
-
-  #about {
-    margin-left: 5%;
-    max-width: 90%;
-  }
-  
-  #profile {
-    margin-left: 10%;
-    width: 80%;
-    margin-bottom: 2%;
-  }
-
-  #firstp {
-    margin-left: 1.5%;
-    width: 92%;
-    line-height: 150%;
-    font-size: 135%;
-  }
-  
-  #secondp {
-    margin-left: 1.5%;
-    max-width: 92%;
-    line-height: 150%;
-    font-size: 135%;
-  }
-  
-  #thirdp {
-    margin-left: 1.5%;
-    max-width: 92%;
-    line-height: 150%;
-    font-size: 135%;
-  }
-
-  /******** Portfolio Page *********/
-
-  #portfolio {
-    margin-left: 5%;
-    margin-right: 30%;
-    max-width: 90%;
-    margin-bottom: 17%;
-    padding-bottom: 365%;
-  }
-
-  .work {
-    position: relative;
-    float: left;
-    width: 95%;
-  }
-   
-  .work img {
-    width: 85%;
-    margin-left: 4%;
-  }
-  
-  .work h3 {
-    position: absolute;
-    width: 75%;
-    padding: 5%;
-    font-size: 180%;
-    color: #ffffff;
-    text-align: center;
-    background: brown;
-    margin-left: 4%;
-  }
-
-    /******* Footer ********/
-    .footer {
-      position: fixed;
-      bottom: 0%;
-      text-align: center;
-    }
-}
-
