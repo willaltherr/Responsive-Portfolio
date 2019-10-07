@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+  <!-- Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -25,6 +29,44 @@
         </div>
       </div>
     </nav>
+
+    <div class="row">
+      <div class="col-sm-2 text-center">
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="card" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="card-body">
+            <h5 class="card-title">LinkedIn Profile Page</h5>
+            <p class="card-text">The two most important characteristics I feel are required to be successful in life are a strong work ethic, and an initiative to learn.  To see more information about my work history, education, volunteer work, skills and more, please visit my LinkedIn Profile page by clicking the link below.</p>
+            <a href="https://www.linkedin.com/in/william-altherr-9b618842/" target="_blank" class="btn visit">Visit Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center">
+        <div class="card" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="card-body">
+            <h5 class="card-title">Github Profile Page</h5>
+            <p class="card-text">Will Altherr's Github profile page was created while attending the University of Richmond School of Professional & Continuing Studies (SPCS) as a participant in the UR Coding Boot Camp.  To see some of the projects I worked on, please visit my Github profile by by clicking the link below.</p>
+            <a href="https://github.com/willaltherr" class="btn visit" target="_blank">Visit Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 text-center">
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="card3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card-body">
+              <h5 class="card-title">Will Altherr's Resume</h5>
+              <p class="card-text">My resume has been updated to include my most recent work history, skills, honors and activities and more.  If you would like a copy of my resume, feel free to print off a version by visiting the link below.</p>
+              <a href="assets/Will_Altherr_Resume.pdf" target="_blank" class="btn visit">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     <div class="row">
         <div class="col-md-12">
@@ -45,7 +87,7 @@
             </div>
         </div>
 
-        <form>
+        <form class="form">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First & Last Name">
@@ -58,10 +100,31 @@
             <label for="message">Message</label>
             <input type="mesage" class="form-control" id="exampleInputPassword1" placeholder="Message">
           </div>
-          <button type="submit" class="btn submit">Submit</button>
+          <button type="submit" class="btn submit visit">Submit</button>
+          <div class="row">
+              <div class="col-sm-2 text-center"></div>
+              <div class="col-sm-4 text-center">
+                  <div class="card bg-light mb-3" style="max-width: 21rem;">
+                    <div class="card-header">Email Address</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Will@KeyDigitalConsulting.com</h5>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                  <div class="card bg-light mb-3" style="max-width: 21rem;">
+                    <div class="card-header">Phone Number</div>
+                    <div class="card-body">
+                      <h5 class="card-title">(540) 295-0853</h5>
+                    </div>
+                  </div>
+              </div>
+          </div>
         </form>
 
     </div>
+
+    
     
     <div class="row">
         <div class="col-md-12">
@@ -71,5 +134,14 @@
         </div>
     </div>
   
+    <!-- AOS Script Function -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!--Bootstrap CSS, Jquery and JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
