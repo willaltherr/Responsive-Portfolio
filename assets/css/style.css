@@ -4,12 +4,11 @@ body {
   overflow-x:hidden;
 }
 
-.img-fluid {
+.portfolio_image {
   padding-top: 5%;
-  padding-left: 3%;
 }
 
-.img-fluid:hover {
+.portfolio_image:hover {
   opacity: 0.5;
 }
 
@@ -138,4 +137,8 @@ hr {
 
 .profile {
   padding-bottom: 5%;
+}
+
+.icon {
+  margin-bottom: 2%;
 }
